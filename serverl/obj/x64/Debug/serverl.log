@@ -1,0 +1,119 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.72.133”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  CSocket.cpp
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning : ‘CThreadPool::ThreadItem::_pThis’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :    41 |         CThreadPool* _pThis;
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :       |                      ^~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning : ‘bool CThreadPool::ThreadItem::ifRunning’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :    40 |         bool ifRunning;                            // ����߳��Ƿ���������
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :       |              ^~~~~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(42,9): warning : when initialized here [-Wreorder]
+E:\visualstatiofile\serverl\serverl\net\CSocket.cpp(897,43): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket.cpp(897,43): warning :   897 |       p_Conn->isendlen = p_Conn->isendlen - sendsize;
+E:\visualstatiofile\serverl\serverl\net\CSocket.cpp(897,43): warning :       |                          ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+  CSocket_accept.cpp
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning : ‘CThreadPool::ThreadItem::_pThis’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :    41 |         CThreadPool* _pThis;
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :       |                      ^~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning : ‘bool CThreadPool::ThreadItem::ifRunning’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :    40 |         bool ifRunning;                            // ����߳��Ƿ���������
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :       |              ^~~~~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(42,9): warning : when initialized here [-Wreorder]
+  CSocket_inet.cpp
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning : ‘CThreadPool::ThreadItem::_pThis’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :    41 |         CThreadPool* _pThis;
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :       |                      ^~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning : ‘bool CThreadPool::ThreadItem::ifRunning’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :    40 |         bool ifRunning;                            // ����߳��Ƿ���������
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :       |              ^~~~~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(42,9): warning : when initialized here [-Wreorder]
+  CSocket_request.cpp
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning : ‘CThreadPool::ThreadItem::_pThis’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :    41 |         CThreadPool* _pThis;
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :       |                      ^~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning : ‘bool CThreadPool::ThreadItem::ifRunning’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :    40 |         bool ifRunning;                            // ����߳��Ƿ���������
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :       |              ^~~~~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(42,9): warning : when initialized here [-Wreorder]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(30,18): warning : comparison of integer expressions of different signedness: ‘ssize_t’ {aka ‘long int’} and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(30,18): warning :    30 |         if (reco == m_iLenPkgHeader)//�����յ�������ͷ���������ͷ
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(30,18): warning :       |             ~~~~~^~~~~~~~~~~~~~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(39,47): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(39,47): warning :    39 |             pConn->irecvlen = pConn->irecvlen - reco;              //Ҫ�յ����ݵ�ȻҪ���٣���ȷ��ֻ�յ������İ�ͷ��
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(39,47): warning :       |                               ~~~~~~~~~~~~~~~~^~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(54,47): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(54,47): warning :    54 |             pConn->irecvlen = pConn->irecvlen - reco;              //Ҫ�յ����ݵ�ȻҪ���٣���ȷ��ֻ�յ������İ�ͷ��
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(54,47): warning :       |                               ~~~~~~~~~~~~~~~~^~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(75,47): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(75,47): warning :    75 |             pConn->irecvlen = pConn->irecvlen - reco;
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(75,47): warning :       |                               ~~~~~~~~~~~~~~~~^~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(95,47): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(95,47): warning :    95 |             pConn->irecvlen = pConn->irecvlen - reco;
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(95,47): warning :       |                               ~~~~~~~~~~~~~~~~^~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(206,27): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(206,27): warning :   206 |         pConn->irecvlen = m_iLenPkgHeader;
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(206,27): warning :       |                           ^~~~~~~~~~~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(214,27): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(214,27): warning :   214 |         pConn->irecvlen = m_iLenPkgHeader;
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(214,27): warning :       |                           ^~~~~~~~~~~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(220,73): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(220,73): warning :   220 |         char* pTmpBuffer = (char*)p_memory->AllocMemory(m_iLenMsgHeader + e_pkgLen, false); //�����ڴ桾������ ��Ϣͷ����  + ��ͷ���� + ���峤�ȡ����������ȸ�false����ʾ�ڴ治��Ҫmemset;
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(220,73): warning :       |                                                         ~~~~~~~~~~~~~~~~^~~~~~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(246,40): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(246,40): warning :   246 |             pConn->irecvlen = e_pkgLen - m_iLenPkgHeader;    //e_pkgLen������������ͷ+���塿��С��-m_iLenPkgHeader����ͷ��  = ����
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(246,40): warning :       |                               ~~~~~~~~~^~~~~~~~~~~~~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(282,23): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(282,23): warning :   282 |     pConn->irecvlen = m_iLenPkgHeader;  //���ú�Ҫ�������ݵĴ�С
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(282,23): warning :       |                       ^~~~~~~~~~~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(364,43): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘unsigned int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(364,43): warning :   364 |         pConn->isendlen = pConn->isendlen - sendsize;
+E:\visualstatiofile\serverl\serverl\net\CSocket_request.cpp(364,43): warning :       |                           ~~~~~~~~~~~~~~~~^~~~~~~~~~
+  CSocket_time.cpp
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning : ‘CThreadPool::ThreadItem::_pThis’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :    41 |         CThreadPool* _pThis;
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :       |                      ^~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning : ‘bool CThreadPool::ThreadItem::ifRunning’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :    40 |         bool ifRunning;                            // ����߳��Ƿ���������
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :       |              ^~~~~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(42,9): warning : when initialized here [-Wreorder]
+E:\visualstatiofile\serverl\serverl\net\CSocket_time.cpp(35,78): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\CSocket_time.cpp(35,78): warning :    35 |  LPSTRUC_MSG_HEADER tmpMsgHeader = (LPSTRUC_MSG_HEADER)p_memory->AllocMemory(m_iLenMsgHeader, false);
+E:\visualstatiofile\serverl\serverl\net\CSocket_time.cpp(35,78): warning :       |                                                                              ^~~~~~~~~~~~~~~
+E:\visualstatiofile\serverl\serverl\net\CSocket_time.cpp(191,9): warning : unused variable ‘err’ [-Wunused-variable]
+E:\visualstatiofile\serverl\serverl\net\CSocket_time.cpp(191,9): warning :   191 |     int err;
+E:\visualstatiofile\serverl\serverl\net\CSocket_time.cpp(191,9): warning :       |         ^~~
+  Socket_conn.cpp
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning : ‘CThreadPool::ThreadItem::_pThis’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :    41 |         CThreadPool* _pThis;
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :       |                      ^~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning : ‘bool CThreadPool::ThreadItem::ifRunning’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :    40 |         bool ifRunning;                            // ����߳��Ƿ���������
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :       |              ^~~~~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(42,9): warning : when initialized here [-Wreorder]
+E:\visualstatiofile\serverl\serverl\net\Socket_conn.cpp(116,71): warning : conversion from ‘std::__cxx11::list<connection_s*>::size_type’ {aka ‘long unsigned int’} to ‘std::__atomic_base<int>::__int_type’ {aka ‘int’} may change value [-Wconversion]
+E:\visualstatiofile\serverl\serverl\net\Socket_conn.cpp(116,71): warning :   116 |     m_free_connection_n = m_total_connection_n = m_connectionList.size(); //��ʼ�������б�һ����
+E:\visualstatiofile\serverl\serverl\net\Socket_conn.cpp(116,71): warning :       |                                                  ~~~~~~~~~~~~~~~~~~~~~^~
+  main.cpp
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning : ‘CThreadPool::ThreadItem::_pThis’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :    41 |         CThreadPool* _pThis;
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(41,22): warning :       |                      ^~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning : ‘bool CThreadPool::ThreadItem::ifRunning’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :    40 |         bool ifRunning;                            // ����߳��Ƿ���������
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(40,14): warning :       |              ^~~~~~~~~
+E:\visualstatiofile\serverl\serverl\_include\CThreadPool.h(42,9): warning : when initialized here [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(67,11): warning : ‘Daemon::ppid_’ will be initialized after [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(67,11): warning :    67 |     pid_t ppid_;  ///< ������ PID
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(67,11): warning :       |           ^~~~~
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(65,9): warning : ‘int Daemon::fd_’ [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(65,9): warning :    65 |     int fd_;  ///< /dev/null ���ļ�������
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(65,9): warning :       |         ^~~
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(26,5): warning : when initialized here [-Wreorder]
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(26,5): warning :    26 |     Daemon(pid_t pid, pid_t ppid)
+E:\visualstatiofile\serverl\serverl\_include\Daemon.h(26,5): warning :       |     ^~~~~~
+E:\visualstatiofile\serverl\serverl\main.cpp(122,1): warning : label ‘lblexit’ defined but not used [-Wunused-label]
+  正在链接对象
+  serverl.vcxproj -> E:\visualstatiofile\serverl\serverl\bin\x64\Debug\serverl.out
